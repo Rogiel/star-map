@@ -1,0 +1,30 @@
+{
+    "name": "rogiel/star-map",
+    "type": "library",
+    "description": "A StarCraft II map parser in PHP",
+    "keywords": ["StarCraft II", "Map parsing", "Gaming", "Blizzard"],
+    "homepage": "https://rogiel.com/portfolio/star-map",
+    "license": "BSD-2.0",
+    "authors": [{
+        "name": "Rogiel Sulzbach",
+        "email": "rogiel@rogiel.com",
+        "homepage": "https://rogiel.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Rogiel\\StarMap\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rogiel\\StarMap\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.5",
+        "rogiel/mpq": "^0.2.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    }
+}
