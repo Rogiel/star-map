@@ -1,4 +1,6 @@
 # Star Map
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FRogiel%2Fstar-map.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FRogiel%2Fstar-map?ref=badge_shield)
+
 
 This library allows you to read StarCraft II map files from PHP.
 
@@ -49,3 +51,6 @@ Map size: 224x192
 ```
 
 Have fun!
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FRogiel%2Fstar-map.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FRogiel%2Fstar-map?ref=badge_large)
